@@ -1,26 +1,26 @@
 # Customer Service Analysis & Recommendations
 ## Etraveli Group Analysis 2023-2024
 
-This repository contains a comprehensive analysis of customer service data Etraveli Group bookings, including contact patterns, booking changes, and customer behavior analysis.
+This repository contains a comprehensive analysis of Etraveli Group customer service data for the year 2023-2024, including contact patterns, booking changes, and customer behavior analysis.
 
 ## Installation
 
 1. Clone the repository:
 
 2. Create and activate a virtual environment:
-python -m venv case_venv
-source case_venv/bin/activate
+`python -m venv case_venv`
+`source case_venv/bin/activate`
 
 3. Install the required packages:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 4. Run the analysis:
-python run_analysis.py
+`python run_analysis.py`
 
 ## Repository File Descriptions
 
 ### customer_service_analysis.py
-Contains the `CustomerServiceAnalysis` class with methods for:
+Contains the `CustomerServiceAnalysis` class with functions for:
 - Data preprocessing
 - Contact analysis
 - Time pattern analysis
